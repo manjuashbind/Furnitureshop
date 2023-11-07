@@ -1,0 +1,46 @@
+     
+ #banner img{
+      height: 90vh;
+    } 
+    #sale{
+      padding: 40px;
+    }
+   /*custom color class  */
+ .leafgreen{
+  color:#198754;
+ }
+ .bg-grey{
+  background-color: #f1f1f186;
+ }
+ .bg-blue{
+  background-color: rgba(0, 0, 255, 0.548);
+  color: white;  
+ }
+ /* carousel text */
+ #first{
+margin-bottom: 260px;
+ }   
+ @media (min-width:768px) and (max-width:1200px){
+  #first{
+    font-size: 28px;
+    margin-bottom: 250px;
+  }
+}
+ @media(max-width: 400px){
+  #banner img{
+    width: 60%;
+    object-fit: cover;
+  }
+  #sale {
+    padding: 0%;
+
+  }
+  #sale img{
+    
+    height: auto;
+    padding: 0%;
+  }
+
+ }
+ 
+ 
